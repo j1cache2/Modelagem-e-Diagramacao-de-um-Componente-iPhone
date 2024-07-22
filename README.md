@@ -9,9 +9,9 @@
 ```mermaid
 classDiagram
     class ReprodutorMusical {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
+        +tocar()void
+        +pausar()void
+        +selecionarMusica(String musica)void
     }
 
     class AparelhoTelefonico {
