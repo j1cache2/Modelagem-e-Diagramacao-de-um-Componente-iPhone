@@ -15,15 +15,15 @@ classDiagram
     }
 
     class AparelhoTelefonico {
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
+        +ligar(String numero)void
+        +atender()void
+        +iniciarCorreioVoz()void
     }
 
     class NavegadorInternet {
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
+        +exibirPagina(String url)void
+        +adicionarNovaAba()void
+        +atualizarPagina()void
     }
     class iPhone {
     }
